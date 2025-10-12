@@ -1,0 +1,157 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 1600px;
+    margin: 0 auto;
+    padding: 16px 80px;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.05);
+}
+
+.navbar-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+}
+
+.bar-icon {
+    display: none;
+}
+
+.navbar-logo-img {
+    height: 40px;
+    width: 40px;
+}
+
+.navbar-brand-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    background: linear-gradient(125.04deg, #632EE3 5.68%, #9F62F2 88.38%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    cursor: pointer;
+}
+
+.navbar-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-middle ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0;
+}
+
+.link-deco {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.9);
+    transition: all 0.3s;
+}
+
+.link-deco:hover {
+    transform: scale(1.1);
+}
+
+.link-deco.active {
+    background: linear-gradient(125.04deg, #632EE3 5.68%, #9F62F2 88.38%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-decoration: underline;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-btn-link {
+    text-decoration: none;
+}
+
+.navbar-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(125.04deg, #632EE3 5.68%, #9F62F2 88.38%);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.navbar-btn:hover {
+    transform: translateY(2px);
+}
+
+@media (max-width: 500px) {
+    .navbar {
+        width: 100%;
+        padding: 16px;
+        padding-left: 8px;
+    }
+    .navbar-brand-title{
+        font-size: 18px;
+    }
+
+    .navbar-left-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .bar-icon {
+        display: block;
+        height: 40px;
+    }
+
+    .navbar-middle {
+        display: none;
+        position: absolute;
+        width: fit-content;
+        padding: 0 16px 16px 16px;
+        top: 77px;
+        left: 0;
+        right: 0;
+        background-color: white;
+        border-top-right-radius: 16px;
+        border-bottom-right-radius: 16px;
+    }
+
+    .navbar-middle.open {
+        display: block;
+    }
+
+    .navbar-middle ul {
+        flex-direction: column;
+        gap: 0;
+    }
+    .navbar-middle ul li{
+        padding: 18px 42px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.2)
+    }
+    .navbar-btn{
+        padding: 6px 8px;
+    }
+}
