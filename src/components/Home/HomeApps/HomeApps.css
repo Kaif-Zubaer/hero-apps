@@ -1,0 +1,47 @@
+.home-apps-section {
+    width: 1600px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-apps-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.home-apps-description {
+    text-align: center;
+    font-size: 20px;
+    line-height: 32px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.home-apps-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}
+
+.all-apps-btn {
+    margin-top: 40px;
+    background: linear-gradient(125.04deg, #632EE3 5.68%, #9F62F2 88.38%);
+    color: white;
+    padding: 16px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.all-apps-btn:hover {
+    transform: translateY(2px);
+}

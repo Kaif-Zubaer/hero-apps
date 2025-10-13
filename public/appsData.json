@@ -1,0 +1,662 @@
+[
+    {
+        "image": "https://cdn-icons-png.freepik.com/512/3536/3536394.png?ga=GA1.1.620599968.1760361753",
+        "title": "Facebook",
+        "companyName": "Meta Platforms, Inc.",
+        "id": 1,
+        "description": "Facebook is the world's most popular social media platform, enabling billions of users to connect with friends and family, share photos, post updates, and engage with content globally. It provides a comprehensive suite of features including News Feed, Messenger integration, Groups for communities, and a Marketplace for buying and selling items.\n\nThe app constantly evolves to integrate new technologies and trends, such as short-form video content (Reels) and live streaming. It serves as a central hub for personal communication, entertainment, and information dissemination, maintaining its position as a dominant force in the digital social landscape.",
+        "size": 65,
+        "reviews": 140000000,
+        "ratingAvg": 4.2,
+        "downloads": 17000000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 15000000
+            },
+            {
+                "name": "2 star",
+                "count": 10000000
+            },
+            {
+                "name": "3 star",
+                "count": 15000000
+            },
+            {
+                "name": "4 star",
+                "count": 30000000
+            },
+            {
+                "name": "5 star",
+                "count": 70000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.freepik.com/512/408/408758.png?ga=GA1.1.620599968.1760361753",
+        "title": "Instagram",
+        "companyName": "Meta Platforms, Inc.",
+        "id": 2,
+        "description": "Instagram is a highly visual social networking service that focuses on photo and video sharing, primarily via mobile devices. Users can post content to their feed, share temporary stories, create short, engaging videos called Reels, and interact through likes, comments, and direct messages, fostering a platform for creative expression and personal branding.\n\nBeyond personal use, Instagram has become a powerful tool for businesses and influencers, offering features like shopping tags and promotional tools. Its emphasis on aesthetics and dynamic content has made it especially popular with younger demographics, solidifying its place as a key player in lifestyle and trend communication.",
+        "size": 150,
+        "reviews": 110000000,
+        "ratingAvg": 4.5,
+        "downloads": 817490000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 8000000
+            },
+            {
+                "name": "2 star",
+                "count": 6000000
+            },
+            {
+                "name": "3 star",
+                "count": 11000000
+            },
+            {
+                "name": "4 star",
+                "count": 25000000
+            },
+            {
+                "name": "5 star",
+                "count": 60000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.freepik.com/512/3046/3046129.png?ga=GA1.1.620599968.1760361753",
+        "title": "TikTok",
+        "companyName": "ByteDance Ltd.",
+        "id": 3,
+        "description": "TikTok is a leading platform for short-form mobile video content, allowing users to create and share videos on any topic, often set to music or sound clips. The app is highly known for its incredibly addictive 'For You Page,' which uses an advanced algorithm to deliver a hyper-personalized stream of content, driving both viral trends and celebrity culture.\n\nIt features a wide array of editing tools, filters, and effects that make it easy for anyone to become a content creator. TikTok has profoundly influenced global culture, music, and marketing, becoming a dominant entertainment source and a launchpad for digital creativity across diverse age groups.",
+        "size": 85,
+        "reviews": 15000000,
+        "ratingAvg": 4.3,
+        "downloads": 825480000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1500000
+            },
+            {
+                "name": "2 star",
+                "count": 1000000
+            },
+            {
+                "name": "3 star",
+                "count": 1500000
+            },
+            {
+                "name": "4 star",
+                "count": 3000000
+            },
+            {
+                "name": "5 star",
+                "count": 8000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.freepik.com/512/12942/12942219.png?ga=GA1.1.620599968.1760361753",
+        "title": "YouTube",
+        "companyName": "Google LLC",
+        "id": 4,
+        "description": "YouTube is the premier global video-sharing platform, hosting a vast library of user-generated and corporate media content, ranging from vlogs and tutorials to music videos and full-length movies. The app supports a diverse ecosystem where creators can monetize their content, and users can subscribe, comment, and engage with millions of channels and videos.\n\nKey features include YouTube Shorts for short-form vertical video, live streaming capabilities, and a personalized recommendation system. It serves as a major resource for education, entertainment, and news, driving the continuous evolution of digital video consumption across the globe.",
+        "size": 120,
+        "reviews": 150000000,
+        "ratingAvg": 4.3,
+        "downloads": 50000000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 12000000
+            },
+            {
+                "name": "2 star",
+                "count": 8000000
+            },
+            {
+                "name": "3 star",
+                "count": 15000000
+            },
+            {
+                "name": "4 star",
+                "count": 35000000
+            },
+            {
+                "name": "5 star",
+                "count": 80000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.freepik.com/512/4008/4008228.png?ga=GA1.1.620599968.1760361753",
+        "title": "WhatsApp Messenger",
+        "companyName": "Meta Platforms, Inc.",
+        "id": 5,
+        "description": "WhatsApp Messenger is a freeware, cross-platform instant messaging and Voice over IP (VoIP) service. It allows users to send text and voice messages, make voice and video calls, and share images, documents, and user locations globally, relying on end-to-end encryption for privacy. It is one of the world’s most widely used messaging applications.\n\nBeyond one-on-one communication, WhatsApp also offers features like group chats, Status updates (similar to Stories), and the WhatsApp Business platform for small and large enterprises. Its simplicity, reliability, and security have made it the primary communication tool for over two billion people worldwide.",
+        "size": 40,
+        "reviews": 90000000,
+        "ratingAvg": 4.4,
+        "downloads": 564330000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 6000000
+            },
+            {
+                "name": "2 star",
+                "count": 4000000
+            },
+            {
+                "name": "3 star",
+                "count": 9000000
+            },
+            {
+                "name": "4 star",
+                "count": 21000000
+            },
+            {
+                "name": "5 star",
+                "count": 50000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.freepik.com/512/906/906377.png?ga=GA1.1.620599968.1760361753",
+        "title": "Telegram",
+        "companyName": "Telegram FZ-LLC",
+        "id": 6,
+        "description": "Telegram is a cloud-based mobile and desktop messaging app with a focus on speed and security. It offers end-to-end encrypted 'Secret Chats' and standard cloud chats that sync across all devices, allowing users to send messages, photos, videos, and files of any type (doc, zip, mp3, etc.) up to 2GB each.\n\nUnique features include large group chats (up to 200,000 members), channels for broadcasting to unlimited audiences, and a powerful bot API for creating interactive services. Its commitment to privacy, powerful multimedia sharing, and extensive group capabilities have made it a preferred platform for public communication and decentralized communities.",
+        "size": 70,
+        "reviews": 10000000,
+        "ratingAvg": 4.3,
+        "downloads": 447770000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 800000
+            },
+            {
+                "name": "2 star",
+                "count": 700000
+            },
+            {
+                "name": "3 star",
+                "count": 1500000
+            },
+            {
+                "name": "4 star",
+                "count": 3000000
+            },
+            {
+                "name": "5 star",
+                "count": 4000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.freepik.com/512/3669/3669986.png?ga=GA1.1.620599968.1760361753",
+        "title": "Spotify",
+        "companyName": "Spotify AB",
+        "id": 7,
+        "description": "Spotify is the world's most popular audio streaming subscription service, offering millions of songs, albums, and podcasts from artists all over the globe. The app features personalized recommendations, curated playlists, and on-demand playback, allowing users to discover new music and enjoy their favorite audio content anytime, anywhere.\n\nIt operates on a freemium model, providing ad-supported access or a paid Premium subscription for offline listening and ad-free experience. Spotify is a key innovator in the music industry, consistently expanding its features to include video podcasts, social sharing, and high-quality audio formats to serve its massive, global audience.",
+        "size": 90,
+        "reviews": 25000000,
+        "ratingAvg": 4.5,
+        "downloads": 1000000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1500000
+            },
+            {
+                "name": "2 star",
+                "count": 1000000
+            },
+            {
+                "name": "3 star",
+                "count": 2500000
+            },
+            {
+                "name": "4 star",
+                "count": 7000000
+            },
+            {
+                "name": "5 star",
+                "count": 13000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.freepik.com/512/732/732228.png?ga=GA1.1.620599968.1760361753",
+        "title": "Netflix",
+        "companyName": "Netflix, Inc.",
+        "id": 8,
+        "description": "Netflix is a global streaming service offering a vast library of TV shows, movies, documentaries, and original programming across a wide variety of genres and languages. The app provides high-definition streaming, a seamless user experience across devices, and an intelligent recommendation engine that tailors content suggestions to individual viewing habits.\n\nAs a pioneer in subscription video-on-demand, Netflix invests heavily in producing exclusive 'Netflix Originals,' significantly changing content production and consumption models worldwide. Users can download content for offline viewing, create multiple profiles, and enjoy a constantly updated catalog, making it a staple for home entertainment.",
+        "size": 80,
+        "reviews": 10000000,
+        "ratingAvg": 4.6,
+        "downloads": 2000000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 500000
+            },
+            {
+                "name": "2 star",
+                "count": 300000
+            },
+            {
+                "name": "3 star",
+                "count": 700000
+            },
+            {
+                "name": "4 star",
+                "count": 2500000
+            },
+            {
+                "name": "5 star",
+                "count": 6000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.freepik.com/512/12942/12942242.png?ga=GA1.1.620599968.1760361753",
+        "title": "Pinterest",
+        "companyName": "Pinterest, Inc.",
+        "id": 9,
+        "description": "Pinterest is a visual discovery engine where users find inspiration and ideas for all aspects of their lives, including recipes, home décor, style, and travel. Users 'Pin' images and videos (ideas) to personalized boards, effectively creating virtual scrapbooks for future projects or purchases, turning browsing into a form of planning and aspiration.\n\nThe platform has strong e-commerce integration, linking Pins directly to products for sale, making it a powerful tool for shopping and brand discovery. Its positive, idea-focused environment distinguishes it from traditional social media, making it particularly popular for planning large events, hobbies, and personal style development.",
+        "size": 50,
+        "reviews": 5000000,
+        "ratingAvg": 4.7,
+        "downloads": 553000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 200000
+            },
+            {
+                "name": "2 star",
+                "count": 150000
+            },
+            {
+                "name": "3 star",
+                "count": 400000
+            },
+            {
+                "name": "4 star",
+                "count": 1250000
+            },
+            {
+                "name": "5 star",
+                "count": 3000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.freepik.com/512/1409/1409941.png?ga=GA1.1.620599968.1760361753",
+        "title": "Snapchat",
+        "companyName": "Snap Inc.",
+        "id": 10,
+        "description": "Snapchat is a multimedia messaging app known for its emphasis on ephemeral content, where messages and photos ('Snaps') are typically only available for a short time before they disappear. This focus promotes spontaneous, in-the-moment sharing, fostering close, immediate communication among friends and family.\n\nKey features include augmented reality (AR) Lenses and Filters, a 'Discover' section for curated content from media partners, and 'Snap Map' for location sharing. It remains highly popular among Gen Z, constantly evolving its AR technology and developing short-form video content through its 'Spotlight' feature.",
+        "size": 115,
+        "reviews": 20000000,
+        "ratingAvg": 4.1,
+        "downloads": 330550000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 2500000
+            },
+            {
+                "name": "2 star",
+                "count": 1500000
+            },
+            {
+                "name": "3 star",
+                "count": 3000000
+            },
+            {
+                "name": "4 star",
+                "count": 5000000
+            },
+            {
+                "name": "5 star",
+                "count": 8000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.freepik.com/512/2702/2702604.png?ga=GA1.1.620599968.1760361753",
+        "title": "Google Maps",
+        "companyName": "Google LLC",
+        "id": 11,
+        "description": "Google Maps is a web mapping service that provides detailed information about geographical regions and sites worldwide. It offers turn-by-turn navigation for drivers, pedestrians, and cyclists, real-time traffic updates, and transit information, making it the most used navigation tool globally.\n\nThe app integrates street views, satellite imagery, and local business listings, allowing users to explore locations, read reviews, and find important operational details like hours and contact information. Its continuous updates on road conditions, public transport changes, and new features like AR navigation ensure it remains an indispensable tool for daily travel and exploration.",
+        "size": 95,
+        "reviews": 15000000,
+        "ratingAvg": 4.6,
+        "downloads": 10000000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 500000
+            },
+            {
+                "name": "2 star",
+                "count": 300000
+            },
+            {
+                "name": "3 star",
+                "count": 700000
+            },
+            {
+                "name": "4 star",
+                "count": 3500000
+            },
+            {
+                "name": "5 star",
+                "count": 10000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.freepik.com/512/16183/16183564.png?ga=GA1.1.620599968.1760361753",
+        "title": "Amazon Shopping",
+        "companyName": "Amazon.com, Inc.",
+        "id": 12,
+        "description": "The Amazon Shopping app is the mobile gateway to one of the world's largest online marketplaces, allowing users to browse, search, and purchase millions of products across thousands of categories. It offers a convenient, personalized shopping experience with features like one-click ordering, package tracking, and access to customer reviews and ratings.\n\nIt also integrates with other Amazon services like Prime Video and Audible, and provides unique mobile features such as visual search using the device's camera. This app is essential for millions of consumers, driving a significant portion of the global e-commerce volume and setting standards for online retail convenience.",
+        "size": 105,
+        "reviews": 20000000,
+        "ratingAvg": 4.5,
+        "downloads": 500000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1000000
+            },
+            {
+                "name": "2 star",
+                "count": 700000
+            },
+            {
+                "name": "3 star",
+                "count": 1800000
+            },
+            {
+                "name": "4 star",
+                "count": 4500000
+            },
+            {
+                "name": "5 star",
+                "count": 12000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.freepik.com/512/4008/4008233.png?ga=GA1.1.620599968.1760361753",
+        "title": "LinkedIn",
+        "companyName": "Microsoft Corporation",
+        "id": 13,
+        "description": "LinkedIn is the world's largest professional networking platform, designed to facilitate career development, business connections, and professional learning. Users can create a detailed profile of their work history and skills, connect with colleagues, search for jobs, and share industry-related content, establishing a digital professional presence.\n\nIt serves as a critical resource for recruitment, corporate learning (LinkedIn Learning), and B2B marketing. The mobile app enables users to stay updated on industry news, manage job applications, and network on the go, making it an essential tool for the global workforce seeking opportunity and professional growth.",
+        "size": 130,
+        "reviews": 8000000,
+        "ratingAvg": 4.2,
+        "downloads": 800000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 800000
+            },
+            {
+                "name": "2 star",
+                "count": 700000
+            },
+            {
+                "name": "3 star",
+                "count": 1200000
+            },
+            {
+                "name": "4 star",
+                "count": 2300000
+            },
+            {
+                "name": "5 star",
+                "count": 3000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.freepik.com/512/220/220233.png?ga=GA1.1.620599968.1760361753",
+        "title": "X (formerly Twitter)",
+        "companyName": "X Corp.",
+        "id": 14,
+        "description": "X, formerly known as Twitter, is a microblogging and social networking service where users post and interact with short-form messages called 'posts' (formerly 'tweets'). The platform is a major hub for real-time news, public opinion, and trending topics, often serving as a digital town square for global discussions and rapid information dissemination.\n\nThe app features an algorithmic 'For You' feed, integration of longer-form content, and video. It remains a key platform for journalists, politicians, and celebrities, driving immediate public conversation and social trend analysis worldwide, despite ongoing changes to its brand and feature set.",
+        "size": 100,
+        "reviews": 12000000,
+        "ratingAvg": 4.1,
+        "downloads": 1000000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1500000
+            },
+            {
+                "name": "2 star",
+                "count": 1000000
+            },
+            {
+                "name": "3 star",
+                "count": 2000000
+            },
+            {
+                "name": "4 star",
+                "count": 3000000
+            },
+            {
+                "name": "5 star",
+                "count": 4500000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.freepik.com/512/3670/3670157.png",
+        "title": "Discord",
+        "companyName": "Discord Inc.",
+        "id": 15,
+        "description": "Discord is a voice, video, and text communication platform primarily used by communities for gaming, education, and social groups. It allows users to create private or public 'servers,' which are structured with channels for specific topics, fostering close-knit community interaction and real-time communication through voice chat.\n\nThe app supports a wide range of features, including screen sharing, live streaming, and a powerful API for custom bots and integrations, making it a highly customizable social space. Originally designed for gamers, its versatility has broadened its appeal, now serving as a primary communication tool for diverse groups and professionals globally.",
+        "size": 90,
+        "reviews": 5000000,
+        "ratingAvg": 4.7,
+        "downloads": 154000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 100000
+            },
+            {
+                "name": "2 star",
+                "count": 150000
+            },
+            {
+                "name": "3 star",
+                "count": 350000
+            },
+            {
+                "name": "4 star",
+                "count": 1400000
+            },
+            {
+                "name": "5 star",
+                "count": 3000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.freepik.com/512/906/906349.png?ga=GA1.1.620599968.1760361753",
+        "title": "Microsoft Teams",
+        "companyName": "Microsoft Corporation",
+        "id": 16,
+        "description": "Microsoft Teams is a unified communication and collaboration platform that combines workplace chat, video meetings, file storage, and application integration. Designed for both desktop and mobile use, it facilitates seamless teamwork for businesses and educational institutions, allowing groups to collaborate efficiently from anywhere.\n\nIt is deeply integrated with the Microsoft 365 suite, enabling users to co-author documents, schedule meetings, and automate workflows directly within the app. Teams has become a standard tool for remote and hybrid work environments, driving productivity and connectivity across enterprises globally.",
+        "size": 155,
+        "reviews": 2000000,
+        "ratingAvg": 4.4,
+        "downloads": 500000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 100000
+            },
+            {
+                "name": "2 star",
+                "count": 50000
+            },
+            {
+                "name": "3 star",
+                "count": 150000
+            },
+            {
+                "name": "4 star",
+                "count": 500000
+            },
+            {
+                "name": "5 star",
+                "count": 1200000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.freepik.com/512/15789/15789391.png?ga=GA1.1.620599968.1760361753",
+        "title": "Zoom",
+        "companyName": "Zoom Video Communications, Inc.",
+        "id": 17,
+        "description": "Zoom is a leading cloud-based peer-to-peer software platform used for video telephony and online chat services. It is widely recognized for its high-quality video and audio, ease of use, and ability to host large-scale meetings, webinars, and virtual events, making it indispensable for remote work and distance learning.\n\nThe mobile app allows users to join meetings quickly via a link, share their screens, and utilize features like virtual backgrounds and breakout rooms. Its explosive growth has cemented its role as the go-to solution for reliable, cross-platform video conferencing for both casual and professional users globally.",
+        "size": 95,
+        "reviews": 3000000,
+        "ratingAvg": 4.5,
+        "downloads": 500000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 100000
+            },
+            {
+                "name": "2 star",
+                "count": 50000
+            },
+            {
+                "name": "3 star",
+                "count": 150000
+            },
+            {
+                "name": "4 star",
+                "count": 700000
+            },
+            {
+                "name": "5 star",
+                "count": 2000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.freepik.com/512/6277/6277211.png?ga=GA1.1.620599968.1760361753",
+        "title": "DoorDash",
+        "companyName": "DoorDash, Inc.",
+        "id": 18,
+        "description": "DoorDash is a leading on-demand food delivery service that connects customers with local restaurants through a network of independent couriers, or 'Dashers.' The app allows users to browse menus, place orders, track their delivery in real-time, and customize their meals from thousands of local and national establishments, offering convenience and variety.\n\nIt also offers DashPass, a subscription service for reduced delivery fees, and has expanded its offerings to include grocery and convenience store items, solidifying its position as a major player in the last-mile logistics and local commerce space in North America and beyond.",
+        "size": 110,
+        "reviews": 4000000,
+        "ratingAvg": 4.6,
+        "downloads": 100000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 150000
+            },
+            {
+                "name": "2 star",
+                "count": 100000
+            },
+            {
+                "name": "3 star",
+                "count": 250000
+            },
+            {
+                "name": "4 star",
+                "count": 1000000
+            },
+            {
+                "name": "5 star",
+                "count": 2500000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.freepik.com/512/5969/5969324.png",
+        "title": "Uber",
+        "companyName": "Uber Technologies, Inc.",
+        "id": 19,
+        "description": "Uber is a multinational technology company that offers ride-hailing services, connecting riders with drivers through its mobile application. The app allows users to request a ride with a few taps, track the vehicle's location, and pay automatically, offering a streamlined and cashless transportation experience across hundreds of cities globally.\n\nBeyond ride services (UberX, Uber Black, etc.), the app integrates Uber Eats for food delivery and Uber Freight for logistics. Uber's disruptive business model has fundamentally changed urban transportation, providing an efficient, on-demand alternative to traditional taxis and public transport.",
+        "size": 140,
+        "reviews": 9000000,
+        "ratingAvg": 4.3,
+        "downloads": 1000000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 800000
+            },
+            {
+                "name": "2 star",
+                "count": 600000
+            },
+            {
+                "name": "3 star",
+                "count": 1000000
+            },
+            {
+                "name": "4 star",
+                "count": 2100000
+            },
+            {
+                "name": "5 star",
+                "count": 4500000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.freepik.com/512/15865/15865249.png",
+        "title": "Lyft",
+        "companyName": "Lyft, Inc.",
+        "id": 20,
+        "description": "Lyft is a leading ride-sharing service in North America, competing with Uber to offer various types of on-demand transportation, including standard rides, shared rides, and scooter/bike rentals. The app focuses on user-friendliness, offering upfront pricing, in-app tipping, and a commitment to safe and reliable transit for its millions of users.\n\nIt continues to expand its offerings into multimodal transportation options, allowing users to choose the most convenient and eco-friendly way to travel within cities. Lyft’s emphasis on community, driver benefits, and regional focus has secured its position as a major player in the modern mobility sector.",
+        "size": 125,
+        "reviews": 3000000,
+        "ratingAvg": 4.4,
+        "downloads": 100000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 150000
+            },
+            {
+                "name": "2 star",
+                "count": 100000
+            },
+            {
+                "name": "3 star",
+                "count": 350000
+            },
+            {
+                "name": "4 star",
+                "count": 900000
+            },
+            {
+                "name": "5 star",
+                "count": 1500000
+            }
+        ]
+    }
+]

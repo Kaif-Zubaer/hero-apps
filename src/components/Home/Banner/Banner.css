@@ -52,6 +52,7 @@
     font-weight: 600;
     color: #001931;
     margin-bottom: 40px;
+    cursor: pointer;
     transition: all 0.3s;
 }
 
