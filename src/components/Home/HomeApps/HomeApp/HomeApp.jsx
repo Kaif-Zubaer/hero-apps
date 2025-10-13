@@ -1,6 +1,8 @@
 import React from 'react';
 import './HomeApp.css'
 import { formatNumber } from '../../../../utility/formetNumber';
+import downloadIcon from '../../../../assets/cloud-arrow-down-solid-full.svg'
+import starIcon from '../../../../assets/star-solid-full.svg'
 
 const HomeApp = ({appData}) => {
         const { image, title, downloads, ratingAvg } = appData;
@@ -11,11 +13,11 @@ const HomeApp = ({appData}) => {
                 <h2 className='app-title'>{title}</h2>
                 <div className='app-div'>
                     <p className='app-downloads'>
-                        <img src="" alt="" />
+                        <img src={downloadIcon} alt="" />
                         {formatNumber(downloads)}
                     </p>
                     <p className='app-rating'>
-                        <img src="" alt="" />
+                        <img src={starIcon} alt="" />
                         {ratingAvg}
                     </p>
                 </div>
