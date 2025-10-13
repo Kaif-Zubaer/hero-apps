@@ -1,3 +1,7 @@
+.app-link {
+    text-decoration: none;
+}
+
 .app-card {
     padding: 16px;
     background: white;
@@ -60,7 +64,7 @@
 }
 
 .app-rating img,
-.app-downloads img{
+.app-downloads img {
     width: 20px;
     height: 20px;
 }

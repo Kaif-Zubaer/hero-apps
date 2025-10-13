@@ -40,7 +40,7 @@ const AllApps = () => {
                             <h1 className='app-error-title'>OPPS!! APP NOT FOUND</h1>
                             <p className='app-error-description'>The App you are requesting is not found on our system.  please try another apps</p>
                             <NavLink to='/'>
-                                <button className='app-error-btn'>Go Back!</button>
+                                <button className='app-error-btn'>Go Home!</button>
                             </NavLink>
                         </div>
                 }
