@@ -6,8 +6,8 @@ import { RouterProvider } from "react-router/dom";
 import Root from './components/Root/Root';
 import Home from './components/Home/Home';
 import ErrorPage from './components/ErrorPage/ErrorPage';
-import Apps from './components/Apps/Apps';
 import Installation from './components/Installation/Installation';
+import AllApps from './components/AllApps/AllApps';
 
 const router = createBrowserRouter([
   {
@@ -23,7 +23,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'apps',
-        Component: Apps,
+        Component: AllApps,
       },
       {
         path: 'installation',
