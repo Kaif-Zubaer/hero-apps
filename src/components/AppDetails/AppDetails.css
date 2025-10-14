@@ -147,6 +147,67 @@
     margin-bottom: 24px;
 }
 
-.bar-chart{
+.bar-chart {
     margin-bottom: 40px;
+}
+
+@media(max-width:500px) {
+    .app-details-container {
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+
+    .app-details-top {
+        flex-direction: column;
+        gap: 24px;
+        border: none;
+    }
+
+    .app-name {
+        padding: 0 16px;
+        border-bottom: none;
+    }
+
+    .app-stats {
+        gap: 14px;
+        padding: 0 16px;
+        margin: 12px 0;
+        justify-content: space-between;
+    }
+
+    .app-stats-download,
+    .app-stats-rating,
+    .app-stats-review {
+        padding: 16px;
+    }
+    .app-stats-img{
+        width: 36px;
+        height: 36px;
+    }
+    .app-stats-lable{
+        font-size: 14px;
+    }
+    .app-stats-num{
+        font-size: 28px;
+    }
+    .install-btn{
+        margin-left: 16px;
+        margin-top: 8px;
+    }
+    .description-section{
+        padding: 0 16px;
+    }
+    .description-lable{
+        margin-bottom: 16px;
+    }
+    .description{
+        text-align: justify;
+    }
+    .rating-section{
+        margin: 24px 16px;
+    }
+    .bb{
+        width: 400px;
+    }
 }

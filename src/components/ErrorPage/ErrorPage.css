@@ -11,6 +11,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin: 80px auto;
 }
 .error-title{
     margin: 16px 0 8px 0;
@@ -38,4 +39,13 @@
 
 .error-btn:hover{
     transform: translateY(2px);
+}
+
+@media(max-width:500px){
+    .error{
+        margin: 60px auto;
+    }
+    .error-img{
+        width: 90%;
+    }
 }

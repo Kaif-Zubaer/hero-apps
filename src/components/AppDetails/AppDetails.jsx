@@ -5,7 +5,7 @@ import downloadIcon from '../../assets/icon-downloads.png'
 import ratingIcon from '../../assets/icon-ratings.png'
 import reviewIcon from '../../assets/icon-review.png'
 import './AppDetails.css'
-import { Bar, BarChart, Tooltip, XAxis, YAxis } from 'recharts';
+import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { useAppContext } from '../../context/AppContext';
 
 
@@ -59,7 +59,7 @@ const AppDetails = () => {
                         <div className='app-stats-review'>
                             <img className='app-stats-img' src={reviewIcon} alt="" />
                             <p className='app-stats-lable'>Total Reviews</p>
-                            <h1 className='app-stats-num,'>{formatNumber(reviews)}</h1>
+                            <h1 className='app-stats-num'>{formatNumber(reviews)}</h1>
                         </div>
                     </div>
                     <button onClick={handleInstall} className='install-btn'>Install Now ({size} MB)</button>
@@ -68,12 +68,14 @@ const AppDetails = () => {
             <div className='rating-section'>
                 <h1 className='rating-title'>Rating</h1>
                 <div className='bar-chart'>
-                    <BarChart layout='vertical' width={1600} height={500} data={ratings} barCategoryGap={16}>
+                    <ResponsiveContainer width="100%" height={500}>
+                        <BarChart layout='vertical' data={ratings} barCategoryGap={16}>
                         <XAxis type="number"></XAxis>
                         <YAxis type="category" dataKey='name' ></YAxis>
                         <Tooltip></Tooltip>
                         <Bar dataKey='count' fill='#FF8811'></Bar>
                     </BarChart>
+                    </ResponsiveContainer>
                 </div>
 
             </div>
