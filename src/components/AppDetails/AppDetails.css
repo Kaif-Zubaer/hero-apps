@@ -133,3 +133,20 @@
     line-height: 32px;
     color: #627382;
 }
+
+.rating-section {
+    margin: 40px 0;
+    border-bottom: 1px solid #C4C9CE;
+}
+
+.rating-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #001931;
+    margin-bottom: 24px;
+}
+
+.bar-chart{
+    margin-bottom: 40px;
+}

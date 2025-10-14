@@ -5,6 +5,7 @@ import downloadIcon from '../../assets/icon-downloads.png'
 import ratingIcon from '../../assets/icon-ratings.png'
 import reviewIcon from '../../assets/icon-review.png'
 import './AppDetails.css'
+import { Bar, BarChart, Tooltip, XAxis, YAxis } from 'recharts';
 
 const AppDetails = () => {
     const appsData = useLoaderData();
@@ -49,9 +50,16 @@ const AppDetails = () => {
                     <button className='install-btn'>Install Now ({size} MB)</button>
                 </div>
             </div>
-            <div>
-
-
+            <div className='rating-section'>
+                <h1 className='rating-title'>Rating</h1>
+                <div className='bar-chart'>
+                    <BarChart layout='vertical' width={1600} height={500} data={ratings} barCategoryGap={16}>
+                        <XAxis type="number"></XAxis>
+                        <YAxis type="category" dataKey='name' ></YAxis>
+                        <Tooltip></Tooltip>
+                        <Bar dataKey='count' fill='#FF8811'></Bar>
+                    </BarChart>
+                </div>
 
             </div>
             <div className='description-section'>
