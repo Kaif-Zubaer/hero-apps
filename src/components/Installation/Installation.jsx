@@ -4,6 +4,7 @@ import { useAppContext } from '../../context/AppContext';
 import { formatNumber } from '../../utility/formetNumber';
 import downloadIcon from '../../assets/cloud-arrow-down-solid-full.svg'
 import starIcon from '../../assets/star-solid-full.svg'
+import { toast, ToastContainer } from 'react-toastify';
 
 const SORT_OPTIONS = [
     { label: 'Size (Low to High)', value: 'asc' },
@@ -54,12 +55,25 @@ const Installation = () => {
                                 </div>
                             </div>
                         </div>
-                        <button className='uninstall-btn' onClick={() => uninstallApp(app.id)}>
+                        <button className='uninstall-btn' onClick={() => {
+                            uninstallApp(app.id);
+                            toast.warn('UnInstalled', {
+                                position: "top-center",
+                                autoClose: 1500,
+                                hideProgressBar: false,
+                                closeOnClick: false,
+                                pauseOnHover: true,
+                                draggable: true,
+                                progress: undefined,
+                                theme: "colored",
+                            });
+                        }}>
                             Uninstall
                         </button>
                     </div>
                 ))
             }
+            <ToastContainer></ToastContainer>
         </div>
     );
 };

@@ -7,6 +7,7 @@ import reviewIcon from '../../assets/icon-review.png'
 import './AppDetails.css'
 import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { useAppContext } from '../../context/AppContext';
+import { toast, ToastContainer } from 'react-toastify';
 
 
 const AppDetails = () => {
@@ -25,10 +26,29 @@ const AppDetails = () => {
         const isAlreadyInstalled = installedApps.some(app => app.id === appData.id);
 
         if (isAlreadyInstalled) {
-            alert('Already installed');
-        } else {
+            toast.error('Already Installed', {
+                position: "top-center",
+                autoClose: 2500,
+                hideProgressBar: false,
+                closeOnClick: false,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "colored",
+            });
+        }
+        else {
             installApp(appData);
-            alert('Installed');
+            toast.success('Installed', {
+                position: "top-center",
+                autoClose: 2500,
+                hideProgressBar: false,
+                closeOnClick: false,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "colored",
+            });
         }
     }
 
@@ -70,11 +90,11 @@ const AppDetails = () => {
                 <div className='bar-chart'>
                     <ResponsiveContainer width="100%" height={500}>
                         <BarChart layout='vertical' data={ratings} barCategoryGap={16}>
-                        <XAxis type="number"></XAxis>
-                        <YAxis type="category" dataKey='name' ></YAxis>
-                        <Tooltip></Tooltip>
-                        <Bar dataKey='count' fill='#FF8811'></Bar>
-                    </BarChart>
+                            <XAxis type="number"></XAxis>
+                            <YAxis type="category" dataKey='name' ></YAxis>
+                            <Tooltip></Tooltip>
+                            <Bar dataKey='count' fill='#FF8811'></Bar>
+                        </BarChart>
                     </ResponsiveContainer>
                 </div>
 
@@ -83,7 +103,9 @@ const AppDetails = () => {
                 <h1 className='description-lable'>Description</h1>
                 <p className='description'>{description}</p>
             </div>
+            <ToastContainer />
         </div>
+
     );
 };
 
