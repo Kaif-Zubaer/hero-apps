@@ -1,16 +1,47 @@
-import { createContext, useContext, useState } from 'react';
+import { createContext, useContext, useEffect, useState } from 'react';
 
 const AppContext = createContext();
+
+const loadFromStorage = () => {
+    const data = localStorage.getItem('installedApps');
+    return data && JSON.parse(data);
+};
+
+const saveToStorage = (apps) => {
+    localStorage.setItem('installedApps', JSON.stringify(apps));
+};
 
 export const AppProvider = ({ children }) => {
     const [installedApps, setInstalledApps] = useState([]);
 
+    useEffect(() => {
+        const storedApps = loadFromStorage();
+
+        if (storedApps) {
+            setInstalledApps(storedApps);
+        }
+    }, []);
+
     const installApp = (app) => {
-        setInstalledApps(prev => prev.find(p => p.id === app.id) ? prev : [...prev, app]);
+        setInstalledApps(prev => {
+            const alreadyExists = prev.some(item => item.id === app.id);
+
+            if (!alreadyExists) {
+                const updated = [...prev, app];
+                saveToStorage(updated);
+                return updated;
+            }
+
+            return prev;
+        });
     };
 
     const uninstallApp = (id) => {
-        setInstalledApps(prev => prev.filter(app => app.id !== id));
+        setInstalledApps(prev => {
+            const updated = prev.filter(app => app.id !== id);
+            saveToStorage(updated);
+            return updated;
+        });
     };
 
     return (
