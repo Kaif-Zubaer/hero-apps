@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import logo from '../../assets/logo.png';
 import gitImg from '../../assets/github-brands-solid-full.svg';
 import barIcon from '../../assets/bars-solid-full.svg';
-import { Link, NavLink } from 'react-router';
+import { NavLink } from 'react-router';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -16,12 +16,12 @@ const Navbar = () => {
         <div className='navbar'>
             <div className='navbar-left-section'>
                 <img className='bar-icon' src={barIcon} alt="menu" onClick={toggleMenu} />
-                <Link className='navbar-left' to='/'>
+                <NavLink className='navbar-left' to='/'>
                     <div className='navbar-left'>
-                        <img className='navbar-logo-img' src={logo} alt="logo" />
+                        <img className='navbar-logo-img' src={logo} alt="" />
                         <h1 className='navbar-brand-title'>HERO.IO</h1>
                     </div>
-                </Link>
+                </NavLink>
             </div>
 
             <div className={`navbar-middle ${menuOpen ? 'open' : ''}`}>
@@ -33,9 +33,9 @@ const Navbar = () => {
             </div>
 
             <div className='navbar-right'>
-                <a className='navbar-btn-link' href="https://github.com/Kaif-Zubaer" target='_blank' rel='noopener noreferrer'>
+                <a className='navbar-btn-link' href="https://github.com/Kaif-Zubaer" target='_blank'>
                     <button className='navbar-btn'>
-                        <img src={gitImg} alt="GitHub" />
+                        <img src={gitImg} alt="" />
                         Contribute
                     </button>
                 </a>

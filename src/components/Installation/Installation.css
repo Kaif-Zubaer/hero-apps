@@ -33,14 +33,14 @@
     color: #001931;
 }
 
-.installed-app-sort{
+.installed-app-sort {
     color: #627382;
     border: 1px solid #D2D2D2;
     padding: 12px 16px;
     outline: none;
     border-radius: 4px;
-  background-color: #F5F5F5;
-  font-size: 16px;
+    background-color: #F5F5F5;
+    font-size: 16px;
 }
 
 .installed-app-card {
@@ -125,52 +125,64 @@
     transform: translateY(2px);
 }
 
-@media (max-width:500px){
-    .installed-app{
+@media (max-width:500px) {
+    .installed-app {
         width: 100%;
         margin: 60px auto;
     }
-    .installed-app-title{
+
+    .installed-app-title {
         font-size: 32px;
         line-height: 24px;
         margin-bottom: 10px;
     }
-    .installed-app-description{
+
+    .installed-app-description {
         font-size: 16px;
         padding: 0 16px;
         line-height: 24px;
     }
-    .installed-app-count{
+
+    .installed-app-count {
         padding: 0 16px;
     }
-    .installed-app-num{
+
+    .installed-app-num {
         font-size: 20px;
     }
-    .installed-app-sort{
+
+    .installed-app-sort {
         padding: 10px 16px;
     }
-    .installed-app-card{
+
+    .installed-app-card {
         margin: 0 16px;
     }
-    .installed-app-card-left{
+
+    .installed-app-card-left {
         gap: 16px;
     }
-    .installed-app-card-img{
+
+    .installed-app-card-img {
         width: 72px;
         height: 72px;
     }
-    .installed-app-name{
+
+    .installed-app-name {
         margin-bottom: 4px;
         font-size: 18px;
     }
-    .installed-app-stats{
+
+    .installed-app-stats {
         gap: 0;
         justify-content: start;
     }
-    .installed-app-stats-manage{
+
+    .installed-app-stats-manage {
         display: none;
     }
-    .uninstall-btn{
+
+    .uninstall-btn {
         padding: 12px 18px;
     }
 }

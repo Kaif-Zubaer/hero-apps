@@ -46,22 +46,25 @@
     transform: translateY(2px);
 }
 
-@media (max-width:500px){
-    .home-apps-section{
+@media (max-width:500px) {
+    .home-apps-section {
         width: 100%;
-          margin: 60px auto;
+        margin: 60px auto;
     }
-    .home-apps-title{
+
+    .home-apps-title {
         font-size: 32px;
         margin-bottom: 10px;
     }
-    .home-apps-description{
+
+    .home-apps-description {
         font-size: 17px;
         padding: 0 16px;
         line-height: 24px;
     }
-    .home-apps-container{
-        grid-template-columns: repeat(1,1fr);
+
+    .home-apps-container {
+        grid-template-columns: repeat(1, 1fr);
         gap: 16px;
     }
 }

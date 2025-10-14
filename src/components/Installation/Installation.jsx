@@ -59,7 +59,7 @@ const Installation = () => {
                             uninstallApp(app.id);
                             toast.warn('UnInstalled', {
                                 position: "top-center",
-                                autoClose: 1500,
+                                autoClose: 2000,
                                 hideProgressBar: false,
                                 closeOnClick: false,
                                 pauseOnHover: true,

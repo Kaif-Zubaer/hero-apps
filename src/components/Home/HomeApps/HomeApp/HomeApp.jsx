@@ -3,13 +3,13 @@ import './HomeApp.css'
 import { formatNumber } from '../../../../utility/formetNumber';
 import downloadIcon from '../../../../assets/cloud-arrow-down-solid-full.svg'
 import starIcon from '../../../../assets/star-solid-full.svg'
-import { Link } from 'react-router';
+import { NavLink } from 'react-router';
 
 const HomeApp = ({ appData }) => {
     const { image, title, downloads, ratingAvg } = appData;
 
     return (
-        <Link to={`/appDetails/${appData.id}`} className='app-link'>
+        <NavLink to={`/appDetails/${appData.id}`} className='app-link'>
             <div className='app-card'>
                 <img className='app-img' src={image} alt="" />
                 <div>
@@ -26,7 +26,7 @@ const HomeApp = ({ appData }) => {
                     </div>
                 </div>
             </div>
-        </Link>
+        </NavLink>
     );
 };
 

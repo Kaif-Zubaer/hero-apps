@@ -9,7 +9,6 @@ import linkedinImg from '../../assets/linkedin-brands-solid-full.svg'
 import './Footer.css'
 import { NavLink } from 'react-router';
 
-
 const Footer = () => {
     return (
         <div className='footer-section'>
@@ -22,7 +21,10 @@ const Footer = () => {
                                 <h3 className='footer-title'>HERO.IO</h3>
                             </NavLink>
                         </div>
-                        <p className='footer-description'>Crafting innovative apps that make everyday life simpler, smarter, and more exciting. <br /> Turning ideas into powerful digital experiences.</p>
+                        <p className='footer-description'>
+                            Crafting innovative apps that make everyday life simpler, smarter, and more exciting. <br />
+                            Turning ideas into powerful digital experiences.
+                        </p>
                     </div>
                     <div className='footer-top-right'>
                         <h3 className='footer-lable'>Social Links</h3>

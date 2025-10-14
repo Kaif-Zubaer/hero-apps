@@ -116,6 +116,15 @@
     transform: translateY(2px);
 }
 
+.install-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    color: #666;
+    transform: none;
+    opacity: 1;
+    padding: 14px 32px;
+}
+
 .description-section {
     margin-top: 40px;
 }
@@ -151,6 +160,10 @@
     margin-bottom: 40px;
 }
 
+.bar-chart *:focus {
+    outline: none;
+}
+
 @media(max-width:500px) {
     .app-details-container {
         width: 100%;
@@ -181,33 +194,42 @@
     .app-stats-review {
         padding: 16px;
     }
-    .app-stats-img{
+
+    .app-stats-img {
         width: 36px;
         height: 36px;
     }
-    .app-stats-lable{
+
+    .app-stats-lable {
         font-size: 14px;
     }
-    .app-stats-num{
+
+    .app-stats-num {
         font-size: 28px;
     }
-    .install-btn{
+
+    .install-btn {
         margin-left: 16px;
         margin-top: 8px;
     }
-    .description-section{
+
+    .description-section {
         padding: 0 16px;
     }
-    .description-lable{
+
+    .description-lable {
         margin-bottom: 16px;
     }
-    .description{
+
+    .description {
         text-align: justify;
     }
-    .rating-section{
+
+    .rating-section {
         margin: 24px 16px;
     }
-    .bb{
+
+    .bb {
         width: 400px;
     }
 }

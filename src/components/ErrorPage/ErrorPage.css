@@ -13,19 +13,22 @@
     text-align: center;
     margin: 80px auto;
 }
-.error-title{
+
+.error-title {
     margin: 16px 0 8px 0;
     font-size: 48px;
     font-weight: 600;
     line-height: 60px;
 }
-.error-description{
+
+.error-description {
     font-size: 20px;
     line-height: 32px;
     color: #627382;
     margin-bottom: 24px;
 }
-.error-btn{
+
+.error-btn {
     background: linear-gradient(125.04deg, #632EE3 5.68%, #9F62F2 88.38%);
     color: white;
     padding: 16px 42px;
@@ -37,15 +40,16 @@
     transition: all 0.3s;
 }
 
-.error-btn:hover{
+.error-btn:hover {
     transform: translateY(2px);
 }
 
-@media(max-width:500px){
-    .error{
+@media(max-width:500px) {
+    .error {
         margin: 60px auto;
     }
-    .error-img{
+
+    .error-img {
         width: 90%;
     }
 }

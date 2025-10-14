@@ -9,7 +9,6 @@ import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recha
 import { useAppContext } from '../../context/AppContext';
 import { toast, ToastContainer } from 'react-toastify';
 
-
 const AppDetails = () => {
     const appsData = useLoaderData();
 
@@ -23,34 +22,19 @@ const AppDetails = () => {
     const { installApp, installedApps } = useAppContext();
 
     const handleInstall = () => {
-        const isAlreadyInstalled = installedApps.some(app => app.id === appData.id);
+        installApp(appData);
 
-        if (isAlreadyInstalled) {
-            toast.error('Already Installed', {
-                position: "top-center",
-                autoClose: 2500,
-                hideProgressBar: false,
-                closeOnClick: false,
-                pauseOnHover: true,
-                draggable: true,
-                progress: undefined,
-                theme: "colored",
-            });
-        }
-        else {
-            installApp(appData);
-            toast.success('Installed', {
-                position: "top-center",
-                autoClose: 2500,
-                hideProgressBar: false,
-                closeOnClick: false,
-                pauseOnHover: true,
-                draggable: true,
-                progress: undefined,
-                theme: "colored",
-            });
-        }
-    }
+        toast.success('Installed', {
+            position: "top-center",
+            autoClose: 2500,
+            hideProgressBar: false,
+            closeOnClick: false,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+        });
+    };
 
     return (
         <div className='app-details-container'>
@@ -82,7 +66,16 @@ const AppDetails = () => {
                             <h1 className='app-stats-num'>{formatNumber(reviews)}</h1>
                         </div>
                     </div>
-                    <button onClick={handleInstall} className='install-btn'>Install Now ({size} MB)</button>
+                    <button
+                        onClick={handleInstall}
+                        className='install-btn'
+                        disabled={installedApps.some(app => app.id === appData.id)}
+                    >
+                        {installedApps.some(app => app.id === appData.id)
+                            ? 'Installed'
+                            : `Install Now (${size} MB)`}
+                    </button>
+
                 </div>
             </div>
             <div className='rating-section'>
@@ -97,13 +90,12 @@ const AppDetails = () => {
                         </BarChart>
                     </ResponsiveContainer>
                 </div>
-
             </div>
             <div className='description-section'>
                 <h1 className='description-lable'>Description</h1>
                 <p className='description'>{description}</p>
             </div>
-            <ToastContainer />
+            <ToastContainer></ToastContainer>
         </div>
 
     );

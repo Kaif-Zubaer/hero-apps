@@ -2,7 +2,6 @@ import { createContext, useContext, useEffect, useState } from 'react';
 
 const AppContext = createContext();
 
-// Safe load
 const loadFromStorage = () => {
   const data = localStorage.getItem('installedApps');
   return data && JSON.parse(data);
@@ -25,11 +24,13 @@ export const AppProvider = ({ children }) => {
   const installApp = (app) => {
     setInstalledApps(prev => {
       const alreadyExists = prev.some(item => item.id === app.id);
+
       if (!alreadyExists) {
         const updated = [...prev, app];
         saveToStorage(updated);
         return updated;
       }
+
       return prev;
     });
   };
