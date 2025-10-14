@@ -9,6 +9,7 @@ import ErrorPage from './components/ErrorPage/ErrorPage';
 import Installation from './components/Installation/Installation';
 import AllApps from './components/AllApps/AllApps';
 import AppDetails from './components/AppDetails/AppDetails';
+import { AppProvider } from './context/AppContext';
 
 const router = createBrowserRouter([
   {
@@ -42,6 +43,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <AppProvider>
+      <RouterProvider router={router}></RouterProvider>
+    </AppProvider>
   </StrictMode>,
 )

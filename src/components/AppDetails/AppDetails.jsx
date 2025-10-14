@@ -6,6 +6,8 @@ import ratingIcon from '../../assets/icon-ratings.png'
 import reviewIcon from '../../assets/icon-review.png'
 import './AppDetails.css'
 import { Bar, BarChart, Tooltip, XAxis, YAxis } from 'recharts';
+import { useAppContext } from '../../context/AppContext';
+
 
 const AppDetails = () => {
     const appsData = useLoaderData();
@@ -16,6 +18,19 @@ const AppDetails = () => {
     const appData = appsData.find(data => data.id === convertedId);
 
     const { image, title, companyName, description, size, reviews, ratingAvg, downloads, ratings } = appData;
+
+    const { installApp, installedApps } = useAppContext();
+
+    const handleInstall = () => {
+        const isAlreadyInstalled = installedApps.some(app => app.id === appData.id);
+
+        if (isAlreadyInstalled) {
+            alert('Already installed');
+        } else {
+            installApp(appData);
+            alert('Installed');
+        }
+    }
 
     return (
         <div className='app-details-container'>
@@ -47,7 +62,7 @@ const AppDetails = () => {
                             <h1 className='app-stats-num,'>{formatNumber(reviews)}</h1>
                         </div>
                     </div>
-                    <button className='install-btn'>Install Now ({size} MB)</button>
+                    <button onClick={handleInstall} className='install-btn'>Install Now ({size} MB)</button>
                 </div>
             </div>
             <div className='rating-section'>

@@ -1,0 +1,125 @@
+.installed-app {
+    width: 1600px;
+    margin: 80px auto;
+}
+
+.installed-app-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.installed-app-description {
+    text-align: center;
+    font-size: 20px;
+    line-height: 32px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.installed-app-count {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.installed-app-num {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #001931;
+}
+
+.installed-app-sort{
+    color: #627382;
+    border: 1px solid #D2D2D2;
+    padding: 12px 16px;
+    outline: none;
+    border-radius: 4px;
+  background-color: #F5F5F5;
+  font-size: 16px;
+}
+
+.installed-app-card {
+    background-color: white;
+    padding: 16px 24px;
+    border-radius: 4px;
+    box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.installed-app-card-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.installed-app-card-img {
+    width: 80px;
+    height: 80px;
+}
+
+.installed-app-name {
+    font-size: 20px;
+    font-weight: 500;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.installed-app-stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.installed-app-stats-manage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.installed-app-stats-img {
+    width: 20px;
+    height: 20px;
+}
+
+.installed-app-downloads {
+    font-size: 16px;
+    font-weight: 500;
+    color: #00D390;
+}
+
+.installed-app-rating {
+    color: #FF8811;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.installed-app-size {
+    color: #627382;
+}
+
+.uninstall-btn {
+    padding: 14px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #00D390;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.uninstall-btn:hover {
+    opacity: 0.75;
+    transform: translateY(2px);
+}
