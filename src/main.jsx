@@ -29,7 +29,7 @@ const router = createBrowserRouter([
         Component: AllApps,
       },
       {
-        path: '/appDetails/:id',
+        path: 'appDetails/:id',
         loader: () => fetch('/appsData.json'),
         Component: AppDetails,
       },
