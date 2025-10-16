@@ -1,16 +1,42 @@
-# React + Vite
+# 📱 Hero App - Explore & Install Your Favorite Apps
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Live Demo
 
-Currently, two official plugins are available:
+[Visit Hero App](https://b12a8-hero-app.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+## 📝 Description
 
-## React Compiler
+**Hero App** is a fully responsive web application that simulates an App Store experience. It allows users to browse, search, and install apps from a curated list. Built with modern front-end technologies, the application offers seamless navigation, detailed app insights, live search, and localStorage-based installation management. Users can also view their installed apps and sort them by download count.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project is built as part of a frontend challenge and demonstrates key features such as dynamic routing, persistent state management using localStorage, data filtering, and data visualization through charts.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- Responsive Design for deesktop and mobile device
+- Dynamic Routing with React Router
+- App Installation & Uninstallation
+- Real-time Search and Filtering
+- Sorting by Download Count
+- Chart Visualization of App Ratings (using Recharts)
+- Custom Error Page
+- Loading Animations during search and navigation
+- Clean and modern UI with active navigation indicators
+
+---
+
+## 🛠 Technologies Usedj
+
+- **React.js** – Front-end library for building UI components
+- **React Router DOM** – For routing and navigation
+- **Recharts** – For rendering responsive charts
+- **CSS / TailwindCSS** – For styling and responsive layout (based on your preference)
+- **localStorage API** – For managing installed apps state
+- **Figma** – Used as the reference for UI/UX design
+- **Vite / Create React App** – (Whichever you used for setup)
+- **Toastify / React Toasts** – For user feedback
+- **Git & GitHub** – Version control and code management
+
+---

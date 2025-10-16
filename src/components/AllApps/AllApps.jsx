@@ -15,8 +15,8 @@ const AllApps = () => {
         setLoading(true);
 
         const timeout = setTimeout(() => {
-            const filtered = search ?
-                appsData.filter(app =>
+            const filtered = search
+                ? appsData.filter(app =>
                     app.title?.toLowerCase().includes(search.toLowerCase()))
                 : appsData;
 
@@ -45,19 +45,19 @@ const AllApps = () => {
                     />
                 </p>
             </div>
-            <div className={`${filteredApps.length > 0 ? 'all-apps-container' : 'app-not-found'}`}>
+            <div className={`${filteredApps.length > 0
+                ? 'all-apps-container'
+                : 'app-not-found'}`}>
                 {
-                    loading ?
-                        (<LoadingAnimation></LoadingAnimation>)
-                        :
-                        filteredApps.length > 0 ?
-                            (
+                    loading
+                        ? (<LoadingAnimation></LoadingAnimation>)
+                        : filteredApps.length > 0
+                            ? (
                                 filteredApps.map(appData => (
                                     <HomeApp key={appData.id} appData={appData} ></HomeApp>
                                 ))
                             )
-                            :
-                            (
+                            : (
                                 <div className='app-error'>
                                     <img src={appError} alt="App Not Found" />
                                     <h1 className='app-error-title'>OOPS!! APP NOT FOUND</h1>
